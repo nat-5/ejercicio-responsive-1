@@ -1,1 +1,1 @@
-# ejercicio-responsive-1
+# ejercicio-responsive
