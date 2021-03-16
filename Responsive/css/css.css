@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace; 
+}
+body {
+    font-size: 10px;
+}
+header{
+width: 100%;
+height: 6em;
+background-color: grey;
+}
+section{
+    width:100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section > div{
+    width: 20em;
+    height: 20em;
+    margin: 1em;
+    background-color: #ffffff;
+} footer{
+    width: 100%;
+    height: 6em;
+    background-color: grey;
+}
+/****************************************
+#       CONFIGURACION RESPONSIVE        *
+****************************************/
+
+@media only screen and (max-width:1440px) {
+    header{
+        background-color: turquoise;
+    }
+    section{
+        background-color:turquoise;
+    }
+    footer{
+        background-color: turquoise;
+    }
+}
+
+@media only screen and (max-width:1366px) {
+    header{
+        background-color:lightcyan;
+    }
+    section{
+        background-color:lightcyan;
+    }
+    footer{
+        background-color:lightcyan;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    header{
+        background-color:plum;
+    }
+    section{
+        background-color:plum;
+    }
+    footer{
+        background-color:plum;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header{
+        background-color:darkcyan;
+    }
+    section{
+        background-color:darkcyan;
+    }
+    footer{
+        background-color:darkcyan;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        background-color:orangered;
+    }
+    section{
+        background-color:orangered;
+    }
+    footer{
+        background-color:orangered;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    header{
+        background-color:lightsalmon;
+    }
+    section{
+        background-color:lightsalmon;
+    }
+    footer{
+        background-color:lightsalmon;
+    }
+
+}
